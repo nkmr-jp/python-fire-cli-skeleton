@@ -20,5 +20,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     py_modules=["sample_command"],
-    entry_points={"console_scripts": ["sample-command=sample_command:main"]},
+    entry_points={"console_scripts": ["sample_command=sample_command:main"]},
 )
