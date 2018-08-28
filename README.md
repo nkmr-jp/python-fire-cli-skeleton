@@ -8,7 +8,7 @@ It uses [Python Fire](https://github.com/google/python-fire).
 ### pip install from github repository.
 
 ```sh
-$ pip install git+ssh://git@github.com/nkmr-jp/python-command-skeleton.git
+$ pip install git+ssh://git@github.com/nkmr-jp/python-fire-cli-skeleton.git
 $ sample_command
   Type:        SampleCommand
   String form: <sample_command.SampleCommand object at 0x103f1bb38>

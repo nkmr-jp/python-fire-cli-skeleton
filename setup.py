@@ -11,7 +11,7 @@ setuptools.setup(
     description="[description]",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/[repository_path]",
+    url="https://github.com/nkmr-jp/python-fire-cli-skeleton",
     install_requires=["fire"],
     packages=setuptools.find_packages(),
     classifiers=[
