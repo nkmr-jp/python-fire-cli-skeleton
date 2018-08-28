@@ -19,5 +19,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    py_modules=["sample_command"],
     entry_points={"console_scripts": ["sample_command=sample_command:main"]},
 )

@@ -25,8 +25,6 @@ $ sample_command
 ### pip install from local repository
 ```sh
 $ git clone git+ssh://git@github.com/nkmr-jp/python-command-skeleton.git
-$ cd path/to/nkmr-jp/python-fire-cli-skeleton/
-$ pipenv run python setup.py install
 $ pip install -e path/to/nkmr-jp/python-fire-cli-skeleton/
 $ sample_command hello
 Hello world!
