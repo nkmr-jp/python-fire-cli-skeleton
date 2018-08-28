@@ -1,6 +1,6 @@
 # python-fire-cli-skeleton
 
-It is a skeleton for easily making original commands.<br>
+This is a skeleton for easily making original commands.<br>
 It uses [Python Fire](https://github.com/google/python-fire).
 
 ## Please try how it work
