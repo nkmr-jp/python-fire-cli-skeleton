@@ -1,31 +1,37 @@
-# python-command-skeleton
+# python-fire-cli-skeleton
 
-This repository is a skeleton for making commands easily in Python.
+It is a skeleton for easily making original commands.<br>
+It uses [Python Fire](https://github.com/google/python-fire).
 
-## Install and Try
+## Please try how it work
 
-Please try how it works.
+### pip install from github repository.
 
-pip install from github repository.`git+ssh` can use private repository.
-You can install this way when you will build your own command too.
 ```sh
 $ pip install git+ssh://git@github.com/nkmr-jp/python-command-skeleton.git
+$ sample_command
+  Type:        SampleCommand
+  String form: <sample_command.SampleCommand object at 0x103f1bb38>
+  File:        path/to/nkmr-jp/python-fire-cli-skeleton/sample_command.py
+  Docstring:   this is sample
+  
+  Usage:       sample_command
+               sample_command hello
+```
+
+`git+ssh` can use private repository too.
+
+
+### pip install from local repository
+```sh
+$ git clone git+ssh://git@github.com/nkmr-jp/python-command-skeleton.git
+$ cd path/to/nkmr-jp/python-fire-cli-skeleton/
+$ pipenv run python setup.py install
+$ pip install -e path/to/nkmr-jp/python-fire-cli-skeleton/
 $ sample_command hello
 Hello world!
 ```
 
-install from local repository
-```sh
-$ pipenv run python setup.py install
-$ pip install -e /path/to/python-command-skeleton
-```
-
 ## How to Use
-clone and copy this repository and make your original command.
-
-
-## Choose a license
-
-If you want to distribute your original command.
-[Choose an open source license](https://choosealicense.com/) and copy and paste to [LICENSE file](/LICENSE).
-and edit name. For more information [Please refer to here](https://packaging.python.org/tutorials/packaging-projects/).
+copy this repository and make your original command.<br>
+If you want to know how to make a package in detail [please refer to here](https://packaging.python.org/tutorials/packaging-projects/).
