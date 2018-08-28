@@ -3,7 +3,7 @@
 This is a skeleton for easily making original commands.<br>
 It uses [Python Fire](https://github.com/google/python-fire).
 
-## Please try how it work
+## Please try how it works
 
 ### pip install from github repository.
 
