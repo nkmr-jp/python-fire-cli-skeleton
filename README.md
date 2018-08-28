@@ -30,6 +30,11 @@ $ sample_command hello
 Hello world!
 ```
 
+### pipenv install from github repository.
+```sh
+pipenv install git+ssh://git@github.com/nkmr-jp/python-fire-cli-skeleton.git#egg=sample-command
+```
+
 ## How to Use
 copy this repository and make your original command.<br>
 If you want to know how to package a Python project in detail [please refer to here](https://packaging.python.org/tutorials/packaging-projects/).
