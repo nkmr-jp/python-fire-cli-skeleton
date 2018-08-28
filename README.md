@@ -32,4 +32,4 @@ Hello world!
 
 ## How to Use
 copy this repository and make your original command.<br>
-If you want to know how to make a package in detail [please refer to here](https://packaging.python.org/tutorials/packaging-projects/).
+If you want to know how to package a Python project in detail [please refer to here](https://packaging.python.org/tutorials/packaging-projects/).
